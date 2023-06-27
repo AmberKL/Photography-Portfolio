@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+}
+
+.nav{
+    position:absolute;
+    z-index: 1;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    padding: 0;
+}
+
+.background{
+    width:100vw;
+    height:100vh;
+    background-position: bottom;
+    background-image: url(main.jpeg);
+    -webkit-background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    opacity:60%;
+    text-align: center;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: -webkit-fill-available;
+    line-height:10px
+}
+
+.photography{
+    font-size:25px;
+}
+
+.socialbuttons{
+    flex-direction:row;
+}
+
+.buttons{
+    display:flex;
+    Flex-direction: row-reverse;
+    margin-left: auto;
+
+}
+.Portfolio{
+    color:white;
+    opacity:55%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline:none;
+    border:none;
+    text-decoration: none;
+}
+.Portfolio:hover{
+    opacity:90%;
+    cursor:pointer;
+}
+.homepage{
+    color:white;
+    opacity:55%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline:none;
+    border:none;
+    text-decoration: none;
+}
+.homepage:hover{
+    opacity:90%;
+    cursor:pointer;
+}
+.Contact{
+    color:white;
+    opacity:55%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline:none;
+    border:none;
+    text-decoration: none;
+}
+.Contact:hover{
+    opacity:90%;
+    cursor:pointer;
+}
+
+.line{
+    width:400px;
+}
+
+.insta{
+    display:inline-flex;
+    height:40px;
+    filter:contrast(50%);
+}
+.insta:hover{
+    display:inline-flex;
+    height:40px;
+    filter:contrast(10%);
+}
+
+.fb{
+    display:inline-flex;
+    height:40px;
+    filter:contrast(50%);
+}
+.fb:hover{
+    display:inline-flex;
+    height:40px;
+    filter:contrast(10%);
+}
+
+.animalsbackground{
+    width:100vw;
+    height:100vh;
+    background-position: bottom;
+    background-image: url(duck.jpeg);
+    -webkit-background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.animalcontainer{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.animalsarrow:hover{
+    opacity:100%;
+    cursor:pointer;
+    position:absolute;
+    z-index: 1;
+    text-decoration: underline;
+    color:lightgrey;
+    
+}
+
+.animalsarrow{
+    opacity: 60%;
+    height: 80px;
+    width: 70px;
+    background: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    right: 39%;
+    margin: -22%;
+    bottom: 53%;
+    font-size: 5.5vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.portraitscontainer{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portraitsarrow{
+    opacity: 60%;
+    height: 80px;
+    width: 70px;
+    background: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    right: 79%;
+    margin: 10%;
+    bottom: 52%;
+    font-size: 5.5vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.portraitsarrow:hover{
+    opacity:100%;
+    cursor:pointer;
+    position:absolute;
+    z-index: 1;
+    text-decoration: underline;
+    color:lightgrey;
+}
+.portraitsbackground{
+    width:100vw;
+    height:100vh;
+    background-position: bottom;
+    background-image: url(face.jpeg);
+    -webkit-background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.naturecontainer{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.naturearrow{
+    opacity: 60%;
+    background: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border:solid;
+}
+.naturearrow:hover{
+    opacity:30%;
+    cursor:pointer;
+    position:absolute;
+    z-index: 1;
+    text-decoration: underline;
+    color:lightgrey;
+    background:white;
+}
+.naturebackground{
+    width:100vw;
+    height:100vh;
+    background-image: url(leaf.jpeg);
+    background-position: bottom;
+    -webkit-background-size:cover;
+    background-repeat: no-repeat;
+}
